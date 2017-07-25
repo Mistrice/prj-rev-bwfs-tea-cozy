@@ -1,0 +1,148 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+nav a {
+	text-decoration: underline;
+	color: seashell;
+	padding-right: 20px;
+}
+
+h2, h4 {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	z-index: 5;
+	margin: 0;
+	padding: 10px;
+}
+
+.tea {
+	text-align: center;
+	padding: 0 15px;
+}
+
+.tea img {
+	height: 200px;
+	width: 300px;
+}
+
+.tea p {
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+.address {
+	background-color: black;
+	opacity: 1;
+	width: 300px;
+	text-align: center;
+	margin: 20px;
+}
+
+.address p {
+	padding-bottom: 10px;
+}
+
+#header {
+	display: flex;
+	position: fixed;
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+	background-color: black;
+	top: 0;
+}
+
+#logo {
+	height: 50px;
+	margin-left: 10px;
+}
+
+#container {
+	position: relative;
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#Mission {
+	height: 700px;
+	width: 1200px;
+	background-image: url("./images/mission-background.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#Featured {
+	padding-top: 50px;
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#teaList {
+	padding-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#Locations {
+	padding-top: 50px;
+	height: 500px;
+	width: 1200px;
+	background-image: url("./images/locations-background.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#locationContainer {
+	display: flex;
+	margin: 0;
+	padding-bottom: 100px;
+}
+
+#Locations h2 {
+	background-color: transparent;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+#Contact {
+	width: 1000px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#Contact h5 {
+	margin: 0;
+}
+
+#copyright {
+	width: 100%
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+
+
